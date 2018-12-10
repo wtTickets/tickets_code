@@ -1,0 +1,41 @@
+	
+	#menu{
+		border-radius: 4px;
+	}
+	#menu ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+	#menu ul li {
+		width:50%;
+		float: left;
+		right: 20%;
+	}	
+	#menu ul li a{
+		color: #F1F8E9;
+		font-family:Segoe UI;
+		display: block;
+		padding: 15px 15px;
+		text-decoration:none; 
+		background-color: #8BC34A;
+	}
+	
+
+	form{
+		
+  		margin:0 auto;
+  		border-radius:8px; 
+  		border-color:#8BC34A;
+  		border-width: 2px;
+  		border-style: solid; 
+  		color:#757575;
+  		font-size: 14px;
+  		font-family:Segoe UI;
+  		padding: 10px;
+  		
+	}
+	footer {
+		text-align: center;
+		color: #BDBDBD;
+	}

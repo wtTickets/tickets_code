@@ -1,0 +1,99 @@
+<!doctype html>	
+<html lang="es">
+<head>
+	<meta charset="uft-8"/>
+	<meta name=”description” content=”Ejemplo de HTML5”/>
+	<meta name=”keywords” content=”HTML5, CSS3, Javascript”/>
+	<title> Widetech Ticket </title>
+		<link rel="stylesheet" href="css/TicketEstilos.css" type= "text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
+</head>
+
+<body>
+	<div id="menu">
+		<ul>
+			<li> <a class="Inicio" href="#">INICIO</a></li>
+			<li> <a class="Salir"href="#">SALIR</a></li>
+		</ul>	
+	</div>
+	<div id="Formularios">
+		<form action="">
+			
+			<div class="clients">
+				<div class="client">
+					<p>Cliente</p> 
+					<input type = "search" Placeholder = "Ingrese cliente" class="field" required> 
+					<i class="fas fa-search"></i> <br/>
+				</div>
+
+				<div class="id-client">
+					<p>NIT</p>
+					<input type = "number" class="field"> <br/>
+				</div>
+
+
+				<div class="content">
+					<p>Parther</p> 
+					<input type = "search" class="field"> <br/>
+				</div>
+
+				
+
+			</div>	
+
+			<div class="columns" >
+							
+				<div class="content">
+    				<p>Consultor</p> 
+					<input type = "text" class="field"> <br/>
+				</div>
+
+				<div class="content">
+					<p>Tipo de ingreso</p>
+					<select id="Asignar" class="field">
+						<option label="Llamada al Cliente" value="Llamada al Cliente">
+						<option label="Llamada del Cliente" value="Llamada del Cliente">
+						<option label="Cliente Oficina" value="Cliente Oficina">
+						<option label="Correo" value="Correo">
+						<option label="Visita a Cliente" value="Visita a Cliente">
+						<option label="Prospecto" value="Prospecto">
+					</select>
+				</div>
+			
+				<div class="content">
+					<p>Asignar</p>
+					<select id="Asignar" class="field">
+						<option label="AREA TECNICA" value="PSCO">
+						<option label="PMO" value="PMO">
+						<option label="COMERCIAL" value="COMERCIAL">
+						<option label="GESTION ADMINISTRATIVA" value="GESTION ADMINISTRATIVA">
+						<option label="SERVICIO AL CLIENTE" 	value="SAC">
+					</select>
+					<input type="radio" name="servicio" value="Instalacion" checked>Instalación
+					<input type="radio" name="servicio" value="Reinstalacion" checked>Reinstalación
+					<input type="radio" name="servicio" value="Revisar" checked>Revisión
+					<input type="radio" name="servicio" value="Desinstalacion" checked>Desinstalación
+					
+
+
+				</div>
+			</div>
+				<div class="observacion">
+					<p>Observación:</p> 
+					<textarea rows="10" cols="200"class="area"> </textarea> <br/>
+					<p class="center-content">
+						<input type = "submit" class="btn btn-save"value = "Guardar">			
+					</p>
+				</div>
+				
+		</form>
+			
+		
+	</div>
+	<footer>
+		<SMALL>Términos y políticas de uso de la información</SMALL> <br>
+		<SMALL>© Copyright 2018 All rights reserved </SMALL> 
+	</footer>
+	<script src="fnTicket.js"></script>
+</body>		

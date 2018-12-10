@@ -1,0 +1,118 @@
+	
+	#menu{
+		border-radius: 4px;
+	}
+	#menu ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+	#menu ul li {
+		width:50%;
+		float: left;
+		right: 20%;
+	}	
+	#menu ul li a{
+		color: #F1F8E9;
+		font-family:Segoe UI;
+		display: block;
+		padding: 15px 15px;
+		text-decoration:none; 
+		background-color: #8BC34A;
+	}
+	.box{
+		background-color: slateblue;
+		padding: 10px;
+
+	}
+
+	.clients {
+		grid-template-columns: 30% 30% 30%;
+		column-gap: 10px;
+	}
+
+	.client i{
+
+		border:solid 1px #CCC;
+		padding: 10px 10px 11px 10px;
+		border-radius: 0 4px 4px 0;
+		background-color:#E0E0E0;
+	}
+	.client input{
+		border:solid 1px #CCC;
+		padding: 10px;
+		border-radius: 4px 0 0 4px;
+		margin:-5px 
+	}
+
+	.clients >div{
+			width: 35%;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: -5px;
+
+		}
+	
+	.columns >div{
+			width: 35%;
+			display: inline-block;
+			vertical-align: top;
+			margin-right: -5px;
+		}
+	
+		
+	
+	.field{
+		border:solid 1px #CCC;
+		padding: 10px;
+		border-radius: 4px;
+		width: 240px;
+
+	}
+
+	form{
+		
+  		margin:0 auto;
+  		border-radius:8px; 
+  		border-color:#8BC34A;
+  		border-width: 2px;
+  		border-style: solid; 
+  		color:#757575;
+  		font-size: 14px;
+  		font-family:Segoe UI;
+  		padding: 10px;
+  		
+	}
+
+	input:focus,
+	textarea:focus,
+	select:focus
+	 {
+  		outline: 1px solid #9CCC65;
+  		border-radius: 4px;
+  		border-color: #9CCC65;
+  		font-size: 14px;
+  		font-family:Segoe UI;
+  		padding: 10px;
+	
+	}
+	textarea{
+		width:50%;
+		right: 20%;
+
+	}
+		
+	.btn.btn-save{
+		margin-right: 20px;
+		font-family:Segoe UI;
+		color: white ;
+		background-color: #8BC34A;
+		text-align: center;
+		padding: 3px 30px;
+		border-radius: 4px;
+	}
+
+	footer {
+		text-align: center;
+		color: #BDBDBD;
+	}

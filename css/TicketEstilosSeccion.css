@@ -1,0 +1,65 @@
+	/*Color de seleccion*/
+	input{
+		outline-color: #9CCC65;
+		padding: 10px;
+
+	}
+
+	.content option{
+		color: #757575;
+		border-color:#9CCC65;
+	}
+	.entry input{
+		border:solid 1px #CCC;
+		padding: 10px;
+		border-radius: 0 4px 4px 0;
+		margin:-2px
+	}	
+	/*Logos*/	
+	.entry i{
+
+		border:solid 1px #CCC;
+		padding: 10px 10px 11px 10px;
+		margin-right: -5px;
+		border-radius: 4px 0 0 4px;
+		background-color:#E0E0E0;
+	}
+	/*Imagen de WT*/
+	div img {
+  		width: 30%; 
+  		height: 30%;
+  		top: 50px; 
+  		margin-left: 470px;
+
+	}
+	
+	/*Formulario*/
+	form{
+		width: 300px;
+  		margin:0 auto;
+  		border-radius:8px; 
+  		border-color:#8BC34A;
+  		border-width: 2px;
+  		border-style: solid; 
+  		color:#757575;
+  		font-size: 14px;
+  		font-family:Segoe UI;
+  		padding: 20px;
+  		
+	}	
+
+	/*Ingresar*/
+	.btn.btn-entry{
+		margin-right: 20px;
+		font-family:Segoe UI;
+		color: white ;
+		background-color: #8BC34A;
+		text-align: center;
+		padding: 9px 30px;
+		border-radius: 4px;
+	}
+
+	footer {
+		text-align: center;
+		color: #BDBDBD;
+	}
